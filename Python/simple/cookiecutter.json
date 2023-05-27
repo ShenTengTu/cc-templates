@@ -1,0 +1,9 @@
+{
+    "project_name": "Simple project",
+    "__project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
+    "__pkg_name": "{{ cookiecutter.__project_slug|replace('-', '_') }}",
+    "description": "Project description",
+    "min_python_version": "3.8",
+    "_new_lines": "\n",
+    "_template_version": "1.0.0"
+}
